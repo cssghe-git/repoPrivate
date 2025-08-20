@@ -119,8 +119,8 @@ require "#{private_dir}/mdPrvFcts_PrvMenus.rb"
 
     # Extract functions
     #++++++++++++++++++
-    values  = PrvFcts_PrvMenus.loadFunctions()
-    program = values['program']
+    values          = PrvFcts_PrvMenus.loadFunctions()
+    program         = values['program']
     arrfunctions    = values['functions']
     
     # Loop
